@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水平居中的几种方式</title>
+    <style>
+        .parent-one{
+            width: 100%;
+            height: 200px;
+            background-color: #ccc;
+            border: 1px solid black;
+            /* 
+                text-aligin属性是为文本提供对齐方式
+                text-aligin具有继承性，会导致其子元素也居中显示
+             */
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .child-one{
+            width: 200px;
+            height: 200px;
+            background-color: #c9394a;
+            display: inline-block;
+        }
+
+        .parent-two{
+            width: 100%;
+            height: 200px;
+            margin-top: 20px;
+            background-color: #ccc;
+            border: 1px solid black;
+            /* 
+                text-aligin属性是为文本提供对齐方式
+                text-aligin具有继承性，会导致其子元素也居中显示
+             */
+            display: table;
+            box-sizing: border-box;
+        }
+        .child-two{
+            width: 200px;
+            height: 200px;
+            background-color: #c9394a;
+            margin: 0 auto;
+        }
+        .parent-three{
+            width: 100%;
+            height: 200px;
+            margin-top: 20px;
+            background-color: #ccc;
+            border: 1px solid black;
+
+            position: relative;
+        }
+        .child-three{
+            width: 200px;
+            height: 200px;
+            background-color: #c9394a;
+
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <!-- inline-block + text-algin 属性配合使用 
+         优点：浏览器兼容性好
+         缺点：子元素也会居中
+    -->
+    <div class="parent-one">
+        <div class="child-one">child</div>
+    </div>
+    <!-- table + margin 属性配合使用 -->
+    <!-- 
+        缺点：子元素脱离文档流，margin就会失效
+     -->
+    <div class="parent-two">
+        <div class="child-two">child</div>
+    </div>
+    <!-- absolute + transform 属性配合使用 -->
+    <!-- 
+        缺点：不兼容
+        优点：不考虑父级元素是否脱离文档流
+     -->
+    <div class="parent-three">
+        <div class="child-three">child</div>
+    </div>
+    <!-- display:flex -->
+
+    <!-- width:fit-content -->
+
+</body>
+</html>

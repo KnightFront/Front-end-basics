@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>垂直居中布局</title>
+    <style>
+        .parent-one{
+            width: 200px;
+            height: 600px;
+            background-color: #ccc;
+            border: 1px solid black;
+            display: table-cell;
+            /* 设置内容为td内容 */
+            vertical-align: middle;
+        }
+        .child-one{
+            width: 200px;
+            height: 200px;
+            background-color: #c9394a;
+        }
+
+        .parent-two{
+            width: 200px;
+            height: 600px;
+            position: relative;
+           /* float: right; */
+            margin-left: 20px;
+            background-color: #ccc;
+            border: 1px solid black;
+        }
+        .child-two{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #c9394a;
+        }
+    </style>
+</head>
+<body>
+    <!-- table-cell + vertical-align -->
+    <!-- 
+         vertical-align  用于设置文本内容垂直方向布局
+         兼容性比较好
+         vertical-align具有继承性，会导致父级文本也具有居中效果
+     -->
+
+    <div class="parent-one">
+        <div class="child-one">
+
+        </div>
+    </div>
+    <!-- absolute + transform 属性配合使用 -->
+    <div class="parent-two">
+        <div class="child-two">
+
+        </div>
+    </div>
+    <!-- flex布局 -->
+
+
+</body>
+</html>
