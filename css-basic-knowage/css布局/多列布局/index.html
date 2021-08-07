@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let info1 = {
+            "ROOT": {
+                "BODY": {
+                    "DETAIL_MSG": "OK",
+                    "OUT_DATA": {
+                        "SUB_ORDER_DETAIL_INFO": {
+                            "STEP_ID": "BusiPack",
+                            "OP_NAME": "5G用户开户",
+                            "CUSTOM_INFO_KEY": "OC4421072619000003595",
+                            "STEP_TYPE": "COMMON",
+                            "CHILDREN_IDS": ["BD44840021072619000005175", "OI44840021072619000005195"],
+                            "STATUS": "WAITING",
+                            "FINISH_TIME": "19700101080000",
+                            "BACK_ORDER_ITEM_ID": "0",
+                            "ROOT_ID": "OD448400210726000000225",
+                            "GOODS_NAME": "199元套餐",
+                            "BEAN_ID": "commonNode",
+                            "FSM_INS_ID": "OF44210726000002155",
+                            "OP_TIME": 1627522136000,
+                            "CREATE_TIME": "20210726195150",
+                            "ID": "BP44840021072619000005165",
+                            "ORDER_ITEM_FIELD_BITMAP": 1074331747,
+                            "BIZPACK_NAME": "客户开户",
+                            "SUB_ORDER_ID": "BP44840021072619000005165",
+                            "CREATE_ACCEPT": "11231",
+                            "PARTITION_CODE": "8400",
+                            "GOODS_PROD": "移动业务",
+                            "EXEC_TIME": "20210729092856",
+                            "ORDERITEM_EXTEND_INFO": {
+                                "LOGIN_NO": "foster_wu",
+                                "REGION_ID": "440000",
+                                "OP_CODE": "m436",
+                                "CHANNEL_ID": "11",
+                                "ORDERITEMID": "BP44840021072619000005165",
+                                "SERVICE_NO": "19212340405",
+                                "CHANNEL_TYPE": "11",
+                                "OP_TIME": 1627300310000,
+                                "CREATE_TIME": 1627300310000,
+                                "GROUP_ID": "440000"
+                            },
+                            "CUST_ID_TYPE": "CUST_ID",
+                            "CUST_ID_VALUE": "44000010000002771",
+                            "ORDER_TYPE": "NORMAL",
+                            "BUSI_ID": "m436",
+                            "LEVEL": 2,
+                            "ACTION_ID": "0",
+                            "PARENT_ID": "OI44840021072619000005095",
+                            "TUNNEL_TYPE": "ORDINARY",
+                            "ORDER_ID": "OD448400210726000000225",
+                            "IS_LEAF": false,
+                            "CHILDREN_LABEL": {
+                                "TUNNEL_TYPE": "ORDINARY",
+                                "COMPLETE_FLAG": false,
+                                "PARTITION_CODE": "",
+                                "keySet": ["0|44000010000002771"],
+                                "MAP_NODES": {
+                                    "0|44000010000002771": {
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "COMPLETE_FLAG": false,
+                                        "PARTITION_CODE": "",
+                                        "LABEL_MODE": "BOTH",
+                                        "LABEL_VALUE_TYPE": "CUST",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "LABEL_VALUE": "44000010000002771",
+                                        "CREATE_TIME": 1627300310000,
+                                        "LABEL_TYPE": "CHILDREN"
+                                    }
+                                }
+                            },
+                            "EXTENDS_INFO": {},
+                            "ORDER_ITEM_TYPE": "NORMAL",
+                            "TENANT_ID": "44",
+                            "BACK_ORDER_ID": "0",
+                            "SO_EXEC_INFO": [],
+                            "COORDINATE": "0.1.1",
+                            "CURR_LABEL": {
+                                "TUNNEL_TYPE": "ORDINARY",
+                                "COMPLETE_FLAG": false,
+                                "PARTITION_CODE": "",
+                                "ROOT_ID": "OD448400210726000000225",
+                                "ID": "BP44840021072619000005165",
+                                "COORDINATE": "0.1.1",
+                                "keySet": [],
+                                "LABEL_TYPE": "CURR",
+                                "MAP_NODES": {}
+                            }
+                        },
+                        "END_TIME": "19700101080000",
+                        "RULE_INFO": {
+                            "BD44840021072619000005175": {
+                                "DEAL_ID": "WR",
+                                "WAIT_INFO": {
+                                    "ALLWAIT_FLAG": "N",
+                                    "WAIT_LIST": [{
+                                        "RELATE_ID": "r5",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000205",
+                                        "NEXT_NODE_ID": "OI44840021072619000004725",
+                                        "WAIT_TYPE": "INNER",
+                                        "ID": "OI44840021072619000004665",
+                                        "PRE_NODE_ID": "OI44840021072619000004665"
+                                    }, {
+                                        "RELATE_ID": "r0",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "NEXT_NODE_ID": "OI44840021072619000005125",
+                                        "WAIT_TYPE": "OUTER",
+                                        "ID": "OI44840021072619000004725",
+                                        "PRE_NODE_ID": "OI44840021072619000004725"
+                                    }, {
+                                        "RELATE_ID": "r0",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "NEXT_NODE_ID": "OI44840021072619000005125",
+                                        "WAIT_TYPE": "OUTER",
+                                        "ID": "OI44840021072619000004665",
+                                        "PRE_NODE_ID": "OI44840021072619000004665"
+                                    }, {
+                                        "RELATE_ID": "r5",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000195",
+                                        "NEXT_NODE_ID": "OI44840021072619000004495",
+                                        "WAIT_TYPE": "INNER",
+                                        "ID": "OI44840021072619000004435",
+                                        "PRE_NODE_ID": "OI44840021072619000004435"
+                                    }, {
+                                        "RELATE_ID": "r5",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000195",
+                                        "NEXT_NODE_ID": "OI44840021072619000004535",
+                                        "WAIT_TYPE": "INNER",
+                                        "ID": "OI44840021072619000004495",
+                                        "PRE_NODE_ID": "OI44840021072619000004495"
+                                    }, {
+                                        "RELATE_ID": "r0",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "NEXT_NODE_ID": "OI44840021072619000005125",
+                                        "WAIT_TYPE": "OUTER",
+                                        "ID": "OI44840021072619000004535",
+                                        "PRE_NODE_ID": "OI44840021072619000004535"
+                                    }, {
+                                        "RELATE_ID": "r5",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000195",
+                                        "NEXT_NODE_ID": "OI44840021072619000004495",
+                                        "WAIT_TYPE": "INNER",
+                                        "ID": "OI44840021072619000004435",
+                                        "PRE_NODE_ID": "OI44840021072619000004435"
+                                    }, {
+                                        "RELATE_ID": "r0",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "NEXT_NODE_ID": "OI44840021072619000005125",
+                                        "WAIT_TYPE": "OUTER",
+                                        "ID": "OI44840021072619000004495",
+                                        "PRE_NODE_ID": "OI44840021072619000004495"
+                                    }, {
+                                        "RELATE_ID": "r0",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "NEXT_NODE_ID": "OI44840021072619000005125",
+                                        "WAIT_TYPE": "OUTER",
+                                        "ID": "OI44840021072619000004435",
+                                        "PRE_NODE_ID": "OI44840021072619000004435"
+                                    }, {
+                                        "RELATE_ID": "r5",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "PARTITION_CODE": "",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "NEXT_NODE_ID": "OI44840021072619000005185",
+                                        "WAIT_TYPE": "INNER",
+                                        "ID": "OI44840021072619000005125",
+                                        "PRE_NODE_ID": "OI44840021072619000005125"
+                                    }],
+                                    "LAST_ORDERITEM": {
+                                        "STEP_ID": "10",
+                                        "CUSTOM_INFO_KEY": "OC4421072619000003255",
+                                        "STEP_TYPE": "WORK_ORDER",
+                                        "STATUS": "WAIT_PERIOD",
+                                        "FINISH_TIME": "19700101080000",
+                                        "BACK_ORDER_ITEM_ID": "0",
+                                        "ROOT_ID": "OD448400210726000000205",
+                                        "BEAN_ID": "workOrderNode",
+                                        "OP_TIME": "20210726194643",
+                                        "CREATE_TIME": "20210726194643",
+                                        "ID": "OI44840021072619000004665",
+                                        "ORDER_ITEM_FIELD_BITMAP": 2949346,
+                                        "CREATE_ACCEPT": "11231",
+                                        "PARTITION_CODE": "8400",
+                                        "ORDERITEM_EXTEND_INFO": {
+                                            "LOGIN_NO": "foster_wu",
+                                            "REGION_ID": "440000",
+                                            "OP_CODE": "m436",
+                                            "CHANNEL_ID": "11",
+                                            "ORDERITEMID": "OI44840021072619000004665",
+                                            "SERVICE_NO": "19212340405",
+                                            "CHANNEL_TYPE": "11",
+                                            "OP_TIME": "20210726194643",
+                                            "CREATE_TIME": "20210726194643",
+                                            "GROUP_ID": "440000"
+                                        },
+                                        "CUST_ID_TYPE": "CUST_ID",
+                                        "CUST_ID_VALUE": "44000010000002771",
+                                        "BUSI_ID": "1000",
+                                        "LEVEL": 4,
+                                        "ACTION_ID": "user_openUser",
+                                        "PARENT_ID": "BD44840021072619000004655",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "IS_LEAF": true,
+                                        "ORDER_ID": "OD448400210726000000205",
+                                        "EXTENDS_INFO": {},
+                                        "ORDER_ITEM_TYPE": "NORMAL",
+                                        "TENANT_ID": "44",
+                                        "COORDINATE": "0.1.0.0.0"
+                                    },
+                                    "WAIT_MOLD": "EW"
+                                },
+                                "ORDER_INFO": {
+                                    "WORK_ORDER": {
+                                        "LOGIN_NO": "foster_wu",
+                                        "STEP_ID": "10",
+                                        "CUSTOM_INFO_KEY": "OC4421072619000003605",
+                                        "STEP_TYPE": "WORK_ORDER",
+                                        "STATUS": "QUEUING",
+                                        "FINISH_TIME": "19700101080000",
+                                        "BACK_ORDER_ITEM_ID": "0",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "BEAN_ID": "workOrderNode",
+                                        "OP_TIME": "20210729092856",
+                                        "CREATE_TIME": "20210726195150",
+                                        "ID": "OI44840021072619000005185",
+                                        "ORDER_ITEM_FIELD_BITMAP": 2982114,
+                                        "CREATE_ACCEPT": "11231",
+                                        "PARTITION_CODE": "8400",
+                                        "ORDERITEM_EXTEND_INFO": {
+                                            "LOGIN_NO": "foster_wu",
+                                            "REGION_ID": "440000",
+                                            "OP_CODE": "m436",
+                                            "CHANNEL_ID": "11",
+                                            "ORDERITEMID": "OI44840021072619000005185",
+                                            "SERVICE_NO": "19212340405",
+                                            "CHANNEL_TYPE": "11",
+                                            "OP_TIME": "20210726195150",
+                                            "CREATE_TIME": "20210726195150",
+                                            "GROUP_ID": "440000"
+                                        },
+                                        "CUST_ID_TYPE": "CUST_ID",
+                                        "CUST_ID_VALUE": "44000010000002771",
+                                        "BUSI_ID": "38392",
+                                        "LEVEL": 4,
+                                        "START_ONWAY_FLAG": false,
+                                        "ACTION_ID": "custOpr_personalCustCreate",
+                                        "PARENT_ID": "BD44840021072619000005175",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "IS_LEAF": true,
+                                        "ORDER_ID": "OD448400210726000000225",
+                                        "FIN_ONWAY_FLAG": true,
+                                        "SERVICE_NO": "19212340405",
+                                        "ORDER_ITEM_TYPE": "NORMAL",
+                                        "TENANT_ID": "44",
+                                        "EXEC_ACT_PERIOD": "EXECUTE",
+                                        "COORDINATE": "0.1.1.0.0",
+                                        "CURR_LABEL": {
+                                            "TUNNEL_TYPE": "ORDINARY",
+                                            "COMPLETE_FLAG": false,
+                                            "PARTITION_CODE": "",
+                                            "ROOT_ID": "OD448400210726000000225",
+                                            "ID": "OI44840021072619000005185",
+                                            "COORDINATE": "0.1.1.0.0",
+                                            "keySet": ["0|44000010000002771"],
+                                            "LABEL_TYPE": "CURR",
+                                            "MAP_NODES": {
+                                                "0|44000010000002771": {
+                                                    "STEP_ID": "10",
+                                                    "PARTITION_CODE": "",
+                                                    "LABEL_VALUE_TYPE": "CUST",
+                                                    "STEP_TYPE": "WORK_ORDER",
+                                                    "TUNNEL_TYPE": "ORDINARY",
+                                                    "COMPLETE_FLAG": false,
+                                                    "LABEL_MODE": "BOTH",
+                                                    "ROOT_ID": "OD448400210726000000225",
+                                                    "LABEL_VALUE": "44000010000002771",
+                                                    "CREATE_TIME": "20210726195150",
+                                                    "ID": "OI44840021072619000005185",
+                                                    "COORDINATE": "0.1.1.0.0",
+                                                    "LABEL_TYPE": "CURR"
+                                                }
+                                            }
+                                        },
+                                        "IS_BEWAITED": true
+                                    },
+                                    "ORDER_ITEM": {
+                                        "LOGIN_NO": "foster_wu",
+                                        "STEP_ID": "BusiDet",
+                                        "CUSTOM_INFO_KEY": "OC4421072619000003605",
+                                        "STEP_TYPE": "COMMON",
+                                        "CHILDREN_IDS": ["OI44840021072619000005185"],
+                                        "STATUS": "WAITING",
+                                        "FINISH_TIME": "19700101080000",
+                                        "BACK_ORDER_ITEM_ID": "0",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "BEAN_ID": "commonNode",
+                                        "FSM_INS_ID": "OF44210726000002165",
+                                        "OP_TIME": "20210729092856",
+                                        "CREATE_TIME": "20210726195150",
+                                        "ID": "BD44840021072619000005175",
+                                        "ORDER_ITEM_FIELD_BITMAP": 5371396195,
+                                        "CREATE_ACCEPT": "11231",
+                                        "PARTITION_CODE": "8400",
+                                        "ORDERITEM_EXTEND_INFO": {
+                                            "LOGIN_NO": "foster_wu",
+                                            "REGION_ID": "440000",
+                                            "OP_CODE": "m436",
+                                            "CHANNEL_ID": "11",
+                                            "ORDERITEMID": "BD44840021072619000005175",
+                                            "SERVICE_NO": "19212340405",
+                                            "CHANNEL_TYPE": "11",
+                                            "OP_TIME": "20210726195150",
+                                            "CREATE_TIME": "20210726195150",
+                                            "GROUP_ID": "440000"
+                                        },
+                                        "CUST_ID_TYPE": "CUST_ID",
+                                        "CUST_ID_VALUE": "44000010000002771",
+                                        "BUSI_ID": "38392",
+                                        "LEVEL": 3,
+                                        "START_ONWAY_FLAG": false,
+                                        "ACTION_ID": "0",
+                                        "PARENT_ID": "BP44840021072619000005165",
+                                        "endPoint": true,
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "IS_LEAF": false,
+                                        "ORDER_ID": "OD448400210726000000225",
+                                        "CHILDREN_LABEL": {
+                                            "TUNNEL_TYPE": "ORDINARY",
+                                            "COMPLETE_FLAG": false,
+                                            "PARTITION_CODE": "",
+                                            "keySet": ["0|44000010000002771"],
+                                            "MAP_NODES": {
+                                                "0|44000010000002771": {
+                                                    "TUNNEL_TYPE": "ORDINARY",
+                                                    "COMPLETE_FLAG": false,
+                                                    "PARTITION_CODE": "",
+                                                    "LABEL_MODE": "BOTH",
+                                                    "LABEL_VALUE_TYPE": "CUST",
+                                                    "ROOT_ID": "OD448400210726000000225",
+                                                    "LABEL_VALUE": "44000010000002771",
+                                                    "CREATE_TIME": "20210726195150",
+                                                    "LABEL_TYPE": "CHILDREN"
+                                                }
+                                            }
+                                        },
+                                        "FIN_ONWAY_FLAG": true,
+                                        "SERVICE_NO": "19212340405",
+                                        "EXTENDS_INFO": {},
+                                        "ORDER_ITEM_TYPE": "NORMAL",
+                                        "TENANT_ID": "44",
+                                        "EXEC_ACT_PERIOD": "CREATE",
+                                        "COORDINATE": "0.1.1.0",
+                                        "CURR_LABEL": {
+                                            "TUNNEL_TYPE": "ORDINARY",
+                                            "COMPLETE_FLAG": false,
+                                            "PARTITION_CODE": "",
+                                            "ROOT_ID": "OD448400210726000000225",
+                                            "ID": "BD44840021072619000005175",
+                                            "COORDINATE": "0.1.1.0",
+                                            "keySet": ["0|44000010000002771"],
+                                            "LABEL_TYPE": "CURR",
+                                            "MAP_NODES": {
+                                                "0|44000010000002771": {
+                                                    "STEP_ID": "BusiDet",
+                                                    "PARTITION_CODE": "",
+                                                    "LABEL_VALUE_TYPE": "CUST",
+                                                    "STEP_TYPE": "COMMON",
+                                                    "TUNNEL_TYPE": "ORDINARY",
+                                                    "COMPLETE_FLAG": false,
+                                                    "LABEL_MODE": "BOTH",
+                                                    "ROOT_ID": "OD448400210726000000225",
+                                                    "LABEL_VALUE": "44000010000002771",
+                                                    "CREATE_TIME": "20210726195150",
+                                                    "ID": "BD44840021072619000005175",
+                                                    "COORDINATE": "0.1.1.0",
+                                                    "LABEL_TYPE": "CURR"
+                                                }
+                                            }
+                                        },
+                                        "IS_BEWAITED": true
+                                    },
+                                    "SUB_ORDER_ID": "BP44840021072619000005165"
+                                },
+                                "RULE_ID": "0",
+                                "RULE_DESC": "工单[BD44840021072619000005175]因异常等待中断^请点击【激活】按钮完成异常修复",
+                                "RULE_BUTTON": "ACT",
+                                "WORKER_CONT": {}
+                            }
+                        },
+                        "DATA_FLAG_IDX": "N",
+                        "ORDER_LINE": [{
+                            "LOGIN_NO": "foster_wu",
+                            "STEP_ID": "BusiDet",
+                            "CUSTOM_INFO_KEY": "OC4421072619000003605",
+                            "OP_NAME": "5G客户开户",
+                            "STEP_TYPE": "COMMON",
+                            "CHILDREN_IDS": ["OI44840021072619000005185"],
+                            "STATUS": "WAITING",
+                            "FINISH_TIME": "19700101080000",
+                            "BACK_ORDER_ITEM_ID": "0",
+                            "ROOT_ID": "OD448400210726000000225",
+                            "BEAN_ID": "commonNode",
+                            "FSM_INS_ID": "OF44210726000002165",
+                            "OP_TIME": 1627522136000,
+                            "STEP_STATUS": {
+                                "STEP_ID": "10",
+                                "STATUS": "QUEUING",
+                                "STATUS_NAME": "未完成",
+                                "STEP_NAME": "资料落地"
+                            },
+                            "CREATE_TIME": "20210726195150",
+                            "ID": "BD44840021072619000005175",
+                            "FEE_INFO": [],
+                            "ORDER_ITEM_FIELD_BITMAP": 5371396195,
+                            "CREATE_ACCEPT": "11231",
+                            "PARTITION_CODE": "8400",
+                            "ORDERITEM_EXTEND_INFO": {
+                                "LOGIN_NO": "foster_wu",
+                                "REGION_ID": "440000",
+                                "OP_CODE": "m436",
+                                "CHANNEL_ID": "11",
+                                "ORDERITEMID": "BD44840021072619000005175",
+                                "SERVICE_NO": "19212340405",
+                                "CHANNEL_TYPE": "11",
+                                "OP_TIME": 1627300310000,
+                                "CREATE_TIME": 1627300310000,
+                                "GROUP_ID": "440000"
+                            },
+                            "CUST_ID_TYPE": "CUST_ID",
+                            "CUST_ID_VALUE": "44000010000002771",
+                            "BUSI_ID": "38392",
+                            "LEVEL": 3,
+                            "OL_EXEC_INFO": [{
+                                "STEP_ID": "10",
+                                "STATUS": "QUEUING",
+                                "ORDER_ITEM_ID": "OI44840021072619000005185",
+                                "STEP_NAME": "资料落地",
+                                "EXEC_FLAG": "N",
+                                "BPDATA_LIST": [],
+                                "WORK_ID": "OI44840021072619000005185",
+                                "STATUS_NAME": "等待中"
+                            }, {
+                                "STEP_ID": "09",
+                                "STATUS": "",
+                                "ORDER_ITEM_ID": "",
+                                "STEP_NAME": "流程启动",
+                                "EXEC_FLAG": "Y",
+                                "BPDATA_LIST": [{
+                                    "E_TIME_MS": "",
+                                    "STATUS_NAME": "完成"
+                                }],
+                                "WORK_ID": "",
+                                "STATUS_NAME": ""
+                            }],
+                            "START_ONWAY_FLAG": false,
+                            "ACTION_ID": "0",
+                            "PARENT_ID": "BP44840021072619000005165",
+                            "endPoint": true,
+                            "TUNNEL_TYPE": "ORDINARY",
+                            "IS_LEAF": false,
+                            "ORDER_ID": "OD448400210726000000225",
+                            "CHILDREN_LABEL": {
+                                "TUNNEL_TYPE": "ORDINARY",
+                                "COMPLETE_FLAG": false,
+                                "PARTITION_CODE": "",
+                                "keySet": ["0|44000010000002771"],
+                                "MAP_NODES": {
+                                    "0|44000010000002771": {
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "COMPLETE_FLAG": false,
+                                        "PARTITION_CODE": "",
+                                        "LABEL_MODE": "BOTH",
+                                        "LABEL_VALUE_TYPE": "CUST",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "LABEL_VALUE": "44000010000002771",
+                                        "CREATE_TIME": 1627300310000,
+                                        "LABEL_TYPE": "CHILDREN"
+                                    }
+                                }
+                            },
+                            "FIN_ONWAY_FLAG": true,
+                            "SERVICE_NO": "19212340405",
+                            "EXTENDS_INFO": {},
+                            "ORDER_ITEM_TYPE": "NORMAL",
+                            "TENANT_ID": "44",
+                            "ORDER_ITEM": {
+                                "LOGIN_NO": "foster_wu",
+                                "STEP_ID": "BusiDet",
+                                "CUSTOM_INFO_KEY": "OC4421072619000003605",
+                                "STEP_TYPE": "COMMON",
+                                "CHILDREN_IDS": ["OI44840021072619000005185"],
+                                "STATUS": "WAITING",
+                                "FINISH_TIME": "19700101080000",
+                                "BACK_ORDER_ITEM_ID": "0",
+                                "ROOT_ID": "OD448400210726000000225",
+                                "BEAN_ID": "commonNode",
+                                "FSM_INS_ID": "OF44210726000002165",
+                                "OP_TIME": "20210729092856",
+                                "CREATE_TIME": "20210726195150",
+                                "ID": "BD44840021072619000005175",
+                                "ORDER_ITEM_FIELD_BITMAP": 5371396195,
+                                "CREATE_ACCEPT": "11231",
+                                "PARTITION_CODE": "8400",
+                                "ORDERITEM_EXTEND_INFO": {
+                                    "LOGIN_NO": "foster_wu",
+                                    "REGION_ID": "440000",
+                                    "OP_CODE": "m436",
+                                    "CHANNEL_ID": "11",
+                                    "ORDERITEMID": "BD44840021072619000005175",
+                                    "SERVICE_NO": "19212340405",
+                                    "CHANNEL_TYPE": "11",
+                                    "OP_TIME": "20210726195150",
+                                    "CREATE_TIME": "20210726195150",
+                                    "GROUP_ID": "440000"
+                                },
+                                "CUST_ID_TYPE": "CUST_ID",
+                                "CUST_ID_VALUE": "44000010000002771",
+                                "BUSI_ID": "38392",
+                                "LEVEL": 3,
+                                "START_ONWAY_FLAG": false,
+                                "ACTION_ID": "0",
+                                "PARENT_ID": "BP44840021072619000005165",
+                                "endPoint": true,
+                                "TUNNEL_TYPE": "ORDINARY",
+                                "IS_LEAF": false,
+                                "ORDER_ID": "OD448400210726000000225",
+                                "CHILDREN_LABEL": {
+                                    "TUNNEL_TYPE": "ORDINARY",
+                                    "COMPLETE_FLAG": false,
+                                    "PARTITION_CODE": "",
+                                    "keySet": ["0|44000010000002771"],
+                                    "MAP_NODES": {
+                                        "0|44000010000002771": {
+                                            "TUNNEL_TYPE": "ORDINARY",
+                                            "COMPLETE_FLAG": false,
+                                            "PARTITION_CODE": "",
+                                            "LABEL_MODE": "BOTH",
+                                            "LABEL_VALUE_TYPE": "CUST",
+                                            "ROOT_ID": "OD448400210726000000225",
+                                            "LABEL_VALUE": "44000010000002771",
+                                            "CREATE_TIME": "20210726195150",
+                                            "LABEL_TYPE": "CHILDREN"
+                                        }
+                                    }
+                                },
+                                "FIN_ONWAY_FLAG": true,
+                                "SERVICE_NO": "19212340405",
+                                "EXTENDS_INFO": {},
+                                "ORDER_ITEM_TYPE": "NORMAL",
+                                "TENANT_ID": "44",
+                                "EXEC_ACT_PERIOD": "CREATE",
+                                "COORDINATE": "0.1.1.0",
+                                "CURR_LABEL": {
+                                    "TUNNEL_TYPE": "ORDINARY",
+                                    "COMPLETE_FLAG": false,
+                                    "PARTITION_CODE": "",
+                                    "ROOT_ID": "OD448400210726000000225",
+                                    "ID": "BD44840021072619000005175",
+                                    "COORDINATE": "0.1.1.0",
+                                    "keySet": ["0|44000010000002771"],
+                                    "LABEL_TYPE": "CURR",
+                                    "MAP_NODES": {
+                                        "0|44000010000002771": {
+                                            "STEP_ID": "BusiDet",
+                                            "PARTITION_CODE": "",
+                                            "LABEL_VALUE_TYPE": "CUST",
+                                            "STEP_TYPE": "COMMON",
+                                            "TUNNEL_TYPE": "ORDINARY",
+                                            "COMPLETE_FLAG": false,
+                                            "LABEL_MODE": "BOTH",
+                                            "ROOT_ID": "OD448400210726000000225",
+                                            "LABEL_VALUE": "44000010000002771",
+                                            "CREATE_TIME": "20210726195150",
+                                            "ID": "BD44840021072619000005175",
+                                            "COORDINATE": "0.1.1.0",
+                                            "LABEL_TYPE": "CURR"
+                                        }
+                                    }
+                                },
+                                "IS_BEWAITED": true
+                            },
+                            "EXEC_ACT_PERIOD": "CREATE",
+                            "COORDINATE": "0.1.1.0",
+                            "CURR_LABEL": {
+                                "TUNNEL_TYPE": "ORDINARY",
+                                "COMPLETE_FLAG": false,
+                                "PARTITION_CODE": "",
+                                "ROOT_ID": "OD448400210726000000225",
+                                "ID": "BD44840021072619000005175",
+                                "COORDINATE": "0.1.1.0",
+                                "keySet": ["0|44000010000002771"],
+                                "LABEL_TYPE": "CURR",
+                                "MAP_NODES": {
+                                    "0|44000010000002771": {
+                                        "STEP_ID": "BusiDet",
+                                        "PARTITION_CODE": "",
+                                        "LABEL_VALUE_TYPE": "CUST",
+                                        "STEP_TYPE": "COMMON",
+                                        "TUNNEL_TYPE": "ORDINARY",
+                                        "COMPLETE_FLAG": false,
+                                        "LABEL_MODE": "BOTH",
+                                        "ROOT_ID": "OD448400210726000000225",
+                                        "LABEL_VALUE": "44000010000002771",
+                                        "CREATE_TIME": 1627300310000,
+                                        "ID": "BD44840021072619000005175",
+                                        "COORDINATE": "0.1.1.0",
+                                        "LABEL_TYPE": "CURR"
+                                    }
+                                }
+                            },
+                            "IS_BEWAITED": true
+                        }],
+                        "SO_EXEC_INFO": {
+                            "00": {
+                                "STEP_ID": "00",
+                                "START_TIME": "20210726195150",
+                                "E_STATUS": "S",
+                                "STEP_NAME": "订单创建",
+                                "SUB_ORDER_ID": "BP44840021072619000005165"
+                            },
+                            "OL_EXEC_LIST": [{
+                                "00": {
+                                    "STEP_ID": "00",
+                                    "START_TIME": "20210726195150",
+                                    "END_TIME": "19700101080000",
+                                    "ORDER_LINE_ID": "BD44840021072619000005175",
+                                    "E_STATUS": "S"
+                                },
+                                "ORDER_LINE_ID": "BD44840021072619000005175",
+                                "09": {
+                                    "STEP_ID": "09",
+                                    "ORDER_LINE_ID": "BD44840021072619000005175",
+                                    "E_STATUS": "S",
+                                    "STEP_NAME": "流程启动"
+                                },
+                                "10": {
+                                    "STEP_ID": "10",
+                                    "START_TIME": "20210726195150",
+                                    "END_TIME": "19700101080000",
+                                    "ID_TYPE": "L",
+                                    "STEP_NAME": "资料落地",
+                                    "E_STATUS": "A"
+                                }
+                            }],
+                            "20": {
+                                "STEP_ID": "20",
+                                "STEP_NAME": "订单竣工",
+                                "E_STATUS": "A",
+                                "SUB_ORDER_ID": "BP44840021072619000005165"
+                            },
+                            "21": {
+                                "STEP_ID": "21",
+                                "START_TIME": "",
+                                "E_STATUS": "A",
+                                "STEP_NAME": "订单归档",
+                                "SUB_ORDER_ID": "BP44840021072619000005165"
+                            }
+                        },
+                        "SEARCH_FLAG": "Y"
+                    },
+                    "PROMPT_MSG": "",
+                    "REQUEST_ID": "20210804103302639_32912_46",
+                    "RETURN_CODE": "0",
+                    "RETURN_MSG": "OK",
+                    "RUN_IP": "172.22.34.47",
+                    "USER_MSG": "OK"
+                },
+                "HEADER": {
+                    "CHANNEL_ID": "9999",
+                    "ROUTING": {
+                        "ROUTE_KEY": "15",
+                        "ROUTE_VALUE": "11"
+                    },
+                    "PORT": 8082,
+                    "IP_HOST": "127.0.0.1",
+                    "IP_ADDR": "127.0.0.1",
+                    "IP_ADDRESS": "127.0.0.1",
+                    "SERV_PORT": 8082,
+                    "SESSION_ID": "5075ccb6-9918-4628-a875-a45eb7a8f319",
+                    "SERV_IP": "127.0.0.1"
+                }
+            }
+        }
+        let data = info1.ROOT.BODY.OUT_DATA
+        let ruleInfo = data.RULE_INFO
+        let info2List = data.ORDER_LINE
+        for (let i = 0; i < info2List.length; i++) {
+            if(ruleInfo[info2List[i].ID] !== undefined){
+                info2List.WAIT_ARRARY = ruleInfo[info2List[i].ID]
+            }
+        }
+    </script>
+</body>
+
+</html>

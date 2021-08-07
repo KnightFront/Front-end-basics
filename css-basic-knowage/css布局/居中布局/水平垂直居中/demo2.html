@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>水平垂直居中第二种</title>
+    <style>
+        .parent{
+            width: 1000px;
+            height: 800px;
+            position: relative;
+            background-color: #ccc;
+            /* 垂直居中 */
+            display: table-cell;
+            vertical-align: middle;
+            /* 垂直居中 */
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: #c9394a;
+            /* 水平 */
+            /* display: block; */
+            margin: 0 auto;
+            /* 水平 */
+        }
+    </style>
+</head>
+
+<body>   
+    <!-- 设置偏移量方式达到水平垂直居中 -->
+    <!-- 问题：
+        语义化不友好
+        兼容性好
+    
+    -->
+    <div class="parent">
+        <div class="child">child</div>
+    </div>
+</body>
+
+</html>
